@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const requireLogin = require('../middlewares/requireLogin');
-const clearCashe = require('../middlewares/clearCashe');
+const clearCashe = require('../middlewares/clearCache');
 
 const Blog = mongoose.model('Blog');
 
